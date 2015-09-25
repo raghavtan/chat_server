@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" href="/static/css/foundation.min.css"/>
+    <link rel="stylesheet" href="/static/css/foundation.css"/>
+    <script src='//static.opentok.com/v2/js/opentok.min.js'></script>
+    <title>Beta Test for LLT</title>
+
+</head>
+<body>
+<div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="button-group even-4">
+            <li><a href="#" class="button">Home</a></li>
+            <li><a href="#" class="button">About</a></li>
+            <li><a href="tok" class="button">AUTH</a></li>
+            <li><a href="#" class="button">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="row">
+    <div class="large-12 columns">
+        <div class="main-wrapper">
+            <h1>{{ pageTitle }}</h1>
+
+        </div>
+        <div class="large-6 columns">
+        <p>{{ token }}</p>
+        <p>{{ session }}</p>
+    </div>
+</div>
+
+
+<footer>
+    <div class="row">
+        <div class="large-6 columns">
+            <p>© Copyright no one at all. Go to town.</p>
+        </div>
+        <div class="large-6 columns">
+            <ul class="inline-list right">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
