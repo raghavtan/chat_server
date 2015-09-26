@@ -15,7 +15,7 @@ def index(request, ses_id):
         name = request.POST.get('name', '')
         ses_id = request.POST.get('session', '')
         try:
-            if ses_id is None:
+            if ses_id is "":
                 ses = "New Session"
                 session = opentok.create_session()
                 session_id = session.session_id
